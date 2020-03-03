@@ -4,7 +4,7 @@
 
 ## Setup
 * Clone the repo
-* Install dependencies `pip install robotframework` && `pip install --upgrade robotframework-seleniumlibrary`
+* Install dependencies `pip install robotframework`  &&  `pip install --upgrade robotframework-seleniumlibrary`
 
 ## Running your tests
 * To run single test, run `robot SingleTest.robot`
