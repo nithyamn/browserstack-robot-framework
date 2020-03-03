@@ -14,7 +14,7 @@ Note: This is w.r.t Python3
 * To run parallel tests, navigate to 'parallel' folder, run `cd parallel`
   - Run `pabot --processes <count_of_parallels> *.robot`
   - Alternate method: `pabot --processes <count_of_parallels> <name_of_suites_to_run>` Eg: `pabot --processes 2 Suite1.robot       Suite2.robot`
-Note: Parallels are configured at Suite level in this project.
+  - *Note: Parallels are configured at Suite level in this project.*
 
 
  Understand how many parallel sessions you need by using our [Parallel Test Calculator](https://www.browserstack.com/automate/parallel-calculator?ref=github)
