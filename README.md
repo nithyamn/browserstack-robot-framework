@@ -5,10 +5,10 @@
 ## Setup
 * Clone the repo
 * Install dependencies  `pip3 install robotframework`  &&  `pip3 install --upgrade robotframework-seleniumlibrary` && `pip3 install robotframework-pabot` -> This is for parallelization 
-Note: This is w.r.t Python3
+*Note: This is w.r.t Python3*
 
 ## Running your tests
-* Navigate to 'tests' folder, `cd tests`
+* Navigate to 'test' folder, `cd test`
 * To run single test, run `robot SingleTest.robot`
 * To run local tests, run `robot LocalTest.robot`
 * To run parallel tests, navigate to 'parallel' folder, run `cd parallel`
