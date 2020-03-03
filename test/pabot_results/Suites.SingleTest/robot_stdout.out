@@ -1,0 +1,16 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.SingleTest                                                             
+==============================================================================
+Browse BrowserStack on google.com                                     | PASS |
+------------------------------------------------------------------------------
+Suites.SingleTest                                                     | PASS |
+1 critical test, 1 passed, 0 failed
+1 test total, 1 passed, 0 failed
+==============================================================================
+Suites                                                                | PASS |
+1 critical test, 1 passed, 0 failed
+1 test total, 1 passed, 0 failed
+==============================================================================
+Output:  /Users/nithyamani/eclipse-workspace/browserstack-robot-framework/test/pabot_results/Suites.SingleTest/output.xml
