@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generated="20200303 18:53:15.287" generator="Robot 3.1.2 (Python 2.7.16 on darwin)">
+<suite source="/Users/nithyamani/eclipse-workspace/browserstack-robot-framework" id="s1" name="Browserstack-Robot-Framework">
+<suite source="/Users/nithyamani/eclipse-workspace/browserstack-robot-framework/test" id="s1-s1" name="Test">
+<suite source="/Users/nithyamani/eclipse-workspace/browserstack-robot-framework/test/parallel" id="s1-s1-s1" name="Parallel">
+<suite source="/Users/nithyamani/eclipse-workspace/browserstack-robot-framework/test/parallel/Suite3.robot" id="s1-s1-s1-s1" name="Suite3">
+<test id="s1-s1-s1-s1-t1" name="Parallel Tests">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+<arg>&amp;{DC}[browser]</arg>
+<arg>remote_url=${REMOTE_URL}</arg>
+<arg>desired_capabilities=&amp;{DC}</arg>
+</arguments>
+<msg timestamp="20200303 18:53:15.593" level="FAIL">Dictionary '&amp;{DC}' has no key 'browser'.</msg>
+<status status="FAIL" endtime="20200303 18:53:15.593" starttime="20200303 18:53:15.592"></status>
+</kw>
+<status status="FAIL" endtime="20200303 18:53:15.594" critical="yes" starttime="20200303 18:53:15.591">Dictionary '&amp;{DC}' has no key 'browser'.</status>
+</test>
+<status status="FAIL" endtime="20200303 18:53:15.594" starttime="20200303 18:53:15.348"></status>
+</suite>
+<status status="FAIL" endtime="20200303 18:53:15.596" starttime="20200303 18:53:15.345"></status>
+</suite>
+<status status="FAIL" endtime="20200303 18:53:15.597" starttime="20200303 18:53:15.343"></status>
+</suite>
+<status status="FAIL" endtime="20200303 18:53:15.598" starttime="20200303 18:53:15.323"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="1" pass="0">Critical Tests</stat>
+<stat fail="1" pass="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="1" id="s1" name="Browserstack-Robot-Framework" pass="0">Browserstack-Robot-Framework</stat>
+<stat fail="1" id="s1-s1" name="Test" pass="0">Browserstack-Robot-Framework.Test</stat>
+<stat fail="1" id="s1-s1-s1" name="Parallel" pass="0">Browserstack-Robot-Framework.Test.Parallel</stat>
+<stat fail="1" id="s1-s1-s1-s1" name="Suite3" pass="0">Browserstack-Robot-Framework.Test.Parallel.Suite3</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20200303 18:53:15.587" level="ERROR">Error in file '/Users/nithyamani/eclipse-workspace/browserstack-robot-framework/test/parallel/Suite3.robot': Setting variable '${ACCESS_KEY}' failed: Environment variable '%{BROWSERSTACK_ACCESS_KEY}' not found.</msg>
+<msg timestamp="20200303 18:53:15.589" level="ERROR">Error in file '/Users/nithyamani/eclipse-workspace/browserstack-robot-framework/test/parallel/Suite3.robot': Setting variable '${USERNAME}' failed: Environment variable '%{BROWSERSTACK_USERNAME}' not found.</msg>
+<msg timestamp="20200303 18:53:15.589" level="ERROR">Error in file '/Users/nithyamani/eclipse-workspace/browserstack-robot-framework/test/parallel/Suite3.robot': Setting variable '${REMOTE_URL}' failed: Variable '${USERNAME}' not found.</msg>
+</errors>
+</robot>

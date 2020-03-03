@@ -3,6 +3,8 @@
     <configVersion>2</configVersion>
     <relativeTo>WORKSPACE</relativeTo>
     <referencedLibrary type="PYTHON" name="SeleniumLibrary" path="/Library/Python/2.7/site-packages/SeleniumLibrary/__init__.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="browserstack" path="/Users/nithyamani/Library/Python/2.7/lib/python/site-packages/browserstack/__init__.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="browserstack.local" path="/Users/nithyamani/Library/Python/2.7/lib/python/site-packages/browserstack/local.py" dynamic="false"/>
     <pythonpath/>
     <classpath/>
     <excludedForValidation/>

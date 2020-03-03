@@ -3,14 +3,15 @@ Suites
 ==============================================================================
 Suites.Suite3                                                                 
 ==============================================================================
-Parallel Tests                                                        | PASS |
+Parallel Tests                                                        | FAIL |
+Dictionary '&{DC}' has no key 'browser'.
 ------------------------------------------------------------------------------
-Suites.Suite3                                                         | PASS |
-1 critical test, 1 passed, 0 failed
-1 test total, 1 passed, 0 failed
+Suites.Suite3                                                         | FAIL |
+1 critical test, 0 passed, 1 failed
+1 test total, 0 passed, 1 failed
 ==============================================================================
-Suites                                                                | PASS |
-1 critical test, 1 passed, 0 failed
-1 test total, 1 passed, 0 failed
+Suites                                                                | FAIL |
+1 critical test, 0 passed, 1 failed
+1 test total, 0 passed, 1 failed
 ==============================================================================
 Output:  /Users/nithyamani/eclipse-workspace/browserstack-robot-framework/test/parallel/pabot_results/Suites.Suite3/output.xml

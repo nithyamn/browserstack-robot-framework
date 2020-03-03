@@ -1,10 +1,9 @@
 *** Settings ***
-Library    SeleniumLibrary    
+Library    SeleniumLibrary       
 *** Variables ***
-${USERNAME}    %{BROWSERSTACK_USERNAME}
-${ACCESS_KEY}    %{BROWSERSTACK_ACCESS_KEY}
+${USERNAME}    %{BROWSERSTACK_USERNAME}    #Can specify BrowserStack Username directly instead if Environment variable.
+${ACCESS_KEY}    %{BROWSERSTACK_ACCESS_KEY}    #Can specify BrowserStack Accesskey directly instead if Environment variable.
 ${REMOTE_URL}    http://${USERNAME}:${ACCESS_KEY}@hub-cloud.browserstack.com/wd/hub
-${BROWSER}    Chrome
 ${URL}    https://www.google.com
 &{DC}    os=Windows    os_version=10    browser=Firefox    browser_version=69.0    build=RobotFramework    name=parallel_test
 
