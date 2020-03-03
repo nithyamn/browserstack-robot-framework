@@ -18,7 +18,9 @@
 ## Running your tests
 * Navigate to 'test' folder, `cd test`
 * To run single test, run `robot SingleTest.robot`
-* To run local tests, run `robot LocalTest.robot`
+* To run local tests
+  - Start the `BrowserStack Local Binary` in advance. https://www.browserstack.com/local-testing/automate
+  - Run `robot LocalTest.robot`
 * To run parallel tests, navigate to 'parallel' folder, run `cd parallel`
   - Run `pabot --processes <count_of_parallels> *.robot`
   - Alternate method: `pabot --processes <count_of_parallels> <name_of_suites_to_run>` Eg: `pabot --processes 2 Suite1.robot       Suite2.robot`
