@@ -4,13 +4,18 @@
 
 ## Setup
 * Clone the repo
-* Install dependencies `pip install robotframework`  &&  `pip install --upgrade robotframework-seleniumlibrary`
+* Install dependencies  `pip3 install robotframework`  &&  `pip3 install --upgrade robotframework-seleniumlibrary` && `pip3 install robotframework-pabot` -> This is for parallelization 
+Note: This is w.r.t Python3
 
 ## Running your tests
+* Navigate to 'tests' folder, `cd tests`
 * To run single test, run `robot SingleTest.robot`
 * To run local tests, run `robot LocalTest.robot`
-* To run parallel tests, navigate to `parallel` folder and run `pabot --processes <count_of_parallels> *.robot`
-  Alternate method: `pabot --processes <count_of_parallels> <name_of_suites_to_run>` Eg: `pabot --processes 2 Suite1.robot Suite2.robot`
+* To run parallel tests, navigate to 'parallel' folder, run `cd parallel`
+  - Run `pabot --processes <count_of_parallels> *.robot`
+  - Alternate method: `pabot --processes <count_of_parallels> <name_of_suites_to_run>` Eg: `pabot --processes 2 Suite1.robot       Suite2.robot`
+Note: Parallels are configured at Suite level in this project.
+
 
  Understand how many parallel sessions you need by using our [Parallel Test Calculator](https://www.browserstack.com/automate/parallel-calculator?ref=github)
 
