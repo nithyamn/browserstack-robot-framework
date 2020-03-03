@@ -25,6 +25,10 @@
   - Run `pabot --processes <count_of_parallels> *.robot`
   - Alternate method: `pabot --processes <count_of_parallels> <name_of_suites_to_run>` Eg: `pabot --processes 2 Suite1.robot       Suite2.robot`
   - **Note: Parallels are configured at Suite level in this project.**
+  
+## Mobile Browsers
+* Android: Replace `browser` (i.e. &{DC}[browser]) parameter in `Open Browser` to `android`
+* iOS: Replace `browser` (i.e. &{DC}[browser]) parameter in `Open Browser` to `iphone`
 
 
  Understand how many parallel sessions you need by using our [Parallel Test Calculator](https://www.browserstack.com/automate/parallel-calculator?ref=github)
