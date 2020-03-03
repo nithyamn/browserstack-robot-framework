@@ -7,7 +7,8 @@
 * Install dependencies  `pip3 install robotframework`  &&  `pip3 install --upgrade robotframework-seleniumlibrary` && `pip3 install robotframework-pabot` -> This is for parallelization 
 * **Note: This is w.r.t Python3**
 
-## You can export the environment variables for the Username and Access Key of your BrowserStack account. 
+## Set BrowserStack Credentials 
+* You can export the environment variables for the Username and Access Key of your BrowserStack account. 
 
   ```
   export BROWSERSTACK_USERNAME=<browserstack-username> &&
