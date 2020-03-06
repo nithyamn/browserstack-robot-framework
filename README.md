@@ -41,13 +41,13 @@
 * Upload app: https://www.browserstack.com/app-automate/appium-python#getting-started
 * Add "app_url" to the script. Eg: 
 - Android
-`` 
+```
 Open Application    ${REMOTE_URL}    name=single_test    build=RobotFramework    platformName=Android    os_version=7.0    device=Samsung Galaxy S8    app=bs://<app_url>
-``
+```
 - iOS
-`` 
+```
 Open Application    ${REMOTE_URL}    name=single_test    build=RobotFramework    platformName=Android    os_version=11.0    device=iPhone 8 Plus    app=bs://<app_url>
-``
+```
 
 * To run single test, run `robot Appium_android.robot` OR  run `robot Appium_ios.robot` 
 * Parallel Execution: Same process as Automate
