@@ -1,0 +1,2 @@
+[ WARN ] Keyword 'Capture Page Screenshot' could not be run on failure: WebDriverException: Message: Appium error: An unknown server-side error occurred while processing the command. Original error: Cannot get screenshot data because of 'Error executing adbExec. Original error: 'Command 'android-sdk/platform-tools/adb -P 5037 -s R52M80JW03Z shell /system/bin/rm /data/local/tmp/screenshot.png\; /system/bin/screencap -p /data/local/tmp/screenshot.png' timed out after 20000ms'; Stderr: ''; Code: 'null''
+

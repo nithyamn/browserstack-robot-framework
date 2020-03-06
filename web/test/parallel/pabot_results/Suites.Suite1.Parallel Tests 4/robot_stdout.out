@@ -1,0 +1,17 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.Suite1                                                                 
+==============================================================================
+Parallel Tests 4                                                      | FAIL |
+WebDriverException: Message: Appium error: Method has not yet been implemented
+------------------------------------------------------------------------------
+Suites.Suite1                                                         | FAIL |
+1 critical test, 0 passed, 1 failed
+1 test total, 0 passed, 1 failed
+==============================================================================
+Suites                                                                | FAIL |
+1 critical test, 0 passed, 1 failed
+1 test total, 0 passed, 1 failed
+==============================================================================
+Output:  /Users/nithyamani/eclipse-workspace/browserstack-robot-framework/web/test/parallel/pabot_results/Suites.Suite1.Parallel Tests 4/output.xml

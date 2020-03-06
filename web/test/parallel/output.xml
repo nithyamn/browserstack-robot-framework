@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generated="20200306 17:41:50.334" generator="Robot 3.1.2 (Python 2.7.16 on darwin)">
+<suite source="/Users/nithyamani/eclipse-workspace/browserstack-robot-framework/web/test/parallel/Suite1.robot" id="s1" name="Suite1">
+<test id="s1-t1" name="Parallel Tests 1">
+<kw name="Set Test Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current test.</doc>
+<arguments>
+<arg>&amp;{DC1}</arg>
+<arg>os=Windows</arg>
+<arg>os_version=8.1</arg>
+<arg>browser=Chrome</arg>
+<arg>browser_version=75.0</arg>
+<arg>build=RobotFramework</arg>
+<arg>name=parallel_test_1}</arg>
+</arguments>
+<msg timestamp="20200306 17:41:50.605" level="INFO">&amp;{DC1} = { os=Windows | os_version=8.1 | browser=Chrome | browser_version=75.0 | build=RobotFramework | name=parallel_test_1} }</msg>
+<status status="PASS" endtime="20200306 17:41:50.605" starttime="20200306 17:41:50.604"></status>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+<arg>&amp;{DC1}[browser]</arg>
+<arg>remote_url=${REMOTE_URL}</arg>
+<arg>desired_capabilities=&amp;{DC1}</arg>
+</arguments>
+<msg timestamp="20200306 17:41:50.606" level="INFO">Opening browser 'Chrome' to base url 'https://www.google.com' through remote server at 'http://nithyamani3:P4JKysg5WuchQxBfKQu1@hub-cloud.browserstack.com/wd/hub'.</msg>
+<status status="PASS" endtime="20200306 17:41:56.766" starttime="20200306 17:41:50.605"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>name=q</arg>
+<arg>BrowserStack</arg>
+</arguments>
+<msg timestamp="20200306 17:41:56.767" level="INFO">Typing text 'BrowserStack' into text field 'name=q'.</msg>
+<status status="PASS" endtime="20200306 17:41:57.133" starttime="20200306 17:41:56.766"></status>
+</kw>
+<kw name="Press Keys" library="SeleniumLibrary">
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<arguments>
+<arg>name=q</arg>
+<arg>ENTER</arg>
+</arguments>
+<msg timestamp="20200306 17:41:57.135" level="INFO">Sending key(s) (u'ENTER',) to name=q element.</msg>
+<msg timestamp="20200306 17:41:57.433" level="INFO">Pressing special key ENTER to element.</msg>
+<msg timestamp="20200306 17:41:57.433" level="INFO">Releasing special key ENTER.</msg>
+<status status="PASS" endtime="20200306 17:41:59.398" starttime="20200306 17:41:57.134"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5</arg>
+</arguments>
+<msg timestamp="20200306 17:42:04.399" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" endtime="20200306 17:42:04.400" starttime="20200306 17:41:59.399"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20200306 17:42:05.341" starttime="20200306 17:42:04.400"></status>
+</kw>
+<status status="PASS" endtime="20200306 17:42:05.342" critical="yes" starttime="20200306 17:41:50.603"></status>
+</test>
+<test id="s1-t2" name="Parallel Tests 2">
+<kw name="Set Test Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current test.</doc>
+<arguments>
+<arg>&amp;{DC2}</arg>
+<arg>os=Windows</arg>
+<arg>os_version=10</arg>
+<arg>browser=Firefox</arg>
+<arg>browser_version=73.0</arg>
+<arg>build=RobotFramework</arg>
+<arg>name=parallel_test_2}</arg>
+</arguments>
+<msg timestamp="20200306 17:42:05.345" level="INFO">&amp;{DC2} = { os=Windows | os_version=10 | browser=Firefox | browser_version=73.0 | build=RobotFramework | name=parallel_test_2} }</msg>
+<status status="PASS" endtime="20200306 17:42:05.345" starttime="20200306 17:42:05.344"></status>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+<arg>&amp;{DC2}[browser]</arg>
+<arg>remote_url=${REMOTE_URL}</arg>
+<arg>desired_capabilities=&amp;{DC2}</arg>
+</arguments>
+<msg timestamp="20200306 17:42:05.347" level="INFO">Opening browser 'Firefox' to base url 'https://www.google.com' through remote server at 'http://nithyamani3:P4JKysg5WuchQxBfKQu1@hub-cloud.browserstack.com/wd/hub'.</msg>
+<status status="PASS" endtime="20200306 17:42:16.568" starttime="20200306 17:42:05.346"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>name=q</arg>
+<arg>BrowserStack</arg>
+</arguments>
+<msg timestamp="20200306 17:42:16.569" level="INFO">Typing text 'BrowserStack' into text field 'name=q'.</msg>
+<status status="PASS" endtime="20200306 17:42:17.292" starttime="20200306 17:42:16.568"></status>
+</kw>
+<kw name="Press Keys" library="SeleniumLibrary">
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<arguments>
+<arg>name=q</arg>
+<arg>ENTER</arg>
+</arguments>
+<msg timestamp="20200306 17:42:17.293" level="INFO">Sending key(s) (u'ENTER',) to name=q element.</msg>
+<msg timestamp="20200306 17:42:18.011" level="INFO">Pressing special key ENTER to element.</msg>
+<msg timestamp="20200306 17:42:18.012" level="INFO">Releasing special key ENTER.</msg>
+<status status="PASS" endtime="20200306 17:42:18.199" starttime="20200306 17:42:17.292"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5</arg>
+</arguments>
+<msg timestamp="20200306 17:42:23.199" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" endtime="20200306 17:42:23.200" starttime="20200306 17:42:18.199"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20200306 17:42:25.013" starttime="20200306 17:42:23.200"></status>
+</kw>
+<status status="PASS" endtime="20200306 17:42:25.014" critical="yes" starttime="20200306 17:42:05.343"></status>
+</test>
+<test id="s1-t3" name="Parallel Tests 3">
+<kw name="Set Test Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current test.</doc>
+<arguments>
+<arg>&amp;{DC3}</arg>
+<arg>os_version=10.0</arg>
+<arg>device=Google Pixel 4 XL</arg>
+<arg>build=RobotFramework</arg>
+<arg>name=parallel_test_3}</arg>
+</arguments>
+<msg timestamp="20200306 17:42:25.016" level="INFO">&amp;{DC3} = { os_version=10.0 | device=Google Pixel 4 XL | build=RobotFramework | name=parallel_test_3} }</msg>
+<status status="PASS" endtime="20200306 17:42:25.016" starttime="20200306 17:42:25.015"></status>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+<arg>android</arg>
+<arg>remote_url=${REMOTE_URL}</arg>
+<arg>desired_capabilities=&amp;{DC3}</arg>
+</arguments>
+<msg timestamp="20200306 17:42:25.018" level="INFO">Opening browser 'android' to base url 'https://www.google.com' through remote server at 'http://nithyamani3:P4JKysg5WuchQxBfKQu1@hub-cloud.browserstack.com/wd/hub'.</msg>
+<status status="PASS" endtime="20200306 17:42:35.249" starttime="20200306 17:42:25.017"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>name=q</arg>
+<arg>BrowserStack</arg>
+</arguments>
+<msg timestamp="20200306 17:42:35.249" level="INFO">Typing text 'BrowserStack' into text field 'name=q'.</msg>
+<status status="PASS" endtime="20200306 17:42:38.305" starttime="20200306 17:42:35.249"></status>
+</kw>
+<kw name="Press Keys" library="SeleniumLibrary">
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<arguments>
+<arg>name=q</arg>
+<arg>ENTER</arg>
+</arguments>
+<msg timestamp="20200306 17:42:38.306" level="INFO">Sending key(s) (u'ENTER',) to name=q element.</msg>
+<msg timestamp="20200306 17:42:40.474" level="INFO">Pressing special key ENTER to element.</msg>
+<msg timestamp="20200306 17:42:40.474" level="INFO">Releasing special key ENTER.</msg>
+<status status="PASS" endtime="20200306 17:42:42.185" starttime="20200306 17:42:38.305"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5</arg>
+</arguments>
+<msg timestamp="20200306 17:42:47.187" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" endtime="20200306 17:42:47.187" starttime="20200306 17:42:42.185"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20200306 17:42:48.902" starttime="20200306 17:42:47.188"></status>
+</kw>
+<status status="PASS" endtime="20200306 17:42:48.903" critical="yes" starttime="20200306 17:42:25.014"></status>
+</test>
+<test id="s1-t4" name="Parallel Tests 4">
+<kw name="Set Test Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current test.</doc>
+<arguments>
+<arg>&amp;{DC4}</arg>
+<arg>os_version=12</arg>
+<arg>device=iPhone 8 Plus</arg>
+<arg>build=RobotFramework</arg>
+<arg>name=parallel_test_4}</arg>
+</arguments>
+<msg timestamp="20200306 17:42:48.906" level="INFO">&amp;{DC4} = { os_version=12 | device=iPhone 8 Plus | build=RobotFramework | name=parallel_test_4} }</msg>
+<status status="PASS" endtime="20200306 17:42:48.906" starttime="20200306 17:42:48.904"></status>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+<arg>iphone</arg>
+<arg>remote_url=${REMOTE_URL}</arg>
+<arg>desired_capabilities=&amp;{DC4}</arg>
+</arguments>
+<msg timestamp="20200306 17:42:48.907" level="INFO">Opening browser 'iphone' to base url 'https://www.google.com' through remote server at 'http://nithyamani3:P4JKysg5WuchQxBfKQu1@hub-cloud.browserstack.com/wd/hub'.</msg>
+<status status="PASS" endtime="20200306 17:43:04.564" starttime="20200306 17:42:48.906"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>name=q</arg>
+<arg>BrowserStack</arg>
+</arguments>
+<msg timestamp="20200306 17:43:04.565" level="INFO">Typing text 'BrowserStack' into text field 'name=q'.</msg>
+<status status="PASS" endtime="20200306 17:43:06.162" starttime="20200306 17:43:04.564"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5</arg>
+</arguments>
+<msg timestamp="20200306 17:43:11.164" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" endtime="20200306 17:43:11.164" starttime="20200306 17:43:06.163"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20200306 17:43:12.581" starttime="20200306 17:43:11.165"></status>
+</kw>
+<status status="PASS" endtime="20200306 17:43:12.581" critical="yes" starttime="20200306 17:42:48.903"></status>
+</test>
+<status status="PASS" endtime="20200306 17:43:12.583" starttime="20200306 17:41:50.336"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="4">Critical Tests</stat>
+<stat fail="0" pass="4">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Suite1" pass="4">Suite1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

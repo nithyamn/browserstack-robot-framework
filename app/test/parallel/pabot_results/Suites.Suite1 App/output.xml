@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generated="20200306 17:44:55.747" generator="Robot 3.1.2 (Python 2.7.16 on darwin)">
+<suite id="s1" name="Suites">
+<suite source="/Users/nithyamani/eclipse-workspace/browserstack-robot-framework/apps/test/parallel/Suite1_App.robot" id="s1-s1" name="Suite1 App">
+<test id="s1-s1-t1" name="Appium Test on BrowserStack">
+<kw name="Open Application" library="AppiumLibrary">
+<doc>Opens a new application to given Appium server.
+Capabilities of appium server, Android and iOS,
+Please check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md
+| *Option*            | *Man.* | *Description*     |
+| remote_url          | Yes    | Appium server url |
+| alias               | no     | alias             |</doc>
+<arguments>
+<arg>${REMOTE_URL}</arg>
+<arg>name=parallel_test</arg>
+<arg>build=RobotFramework</arg>
+<arg>platformName=iOS</arg>
+<arg>os_version=13.0</arg>
+<arg>device=iPhone XS</arg>
+<arg>app=bs://07dc0a4af4567a7086a3c739b3b51f41a086e6a0</arg>
+</arguments>
+<status status="PASS" endtime="20200306 17:45:42.059" starttime="20200306 17:44:56.068"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>id=Alert Button</arg>
+</arguments>
+<msg timestamp="20200306 17:45:42.062" level="INFO">Clicking element 'id=Alert Button'.</msg>
+<status status="PASS" endtime="20200306 17:45:43.499" starttime="20200306 17:45:42.060"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>id=OK</arg>
+</arguments>
+<msg timestamp="20200306 17:45:43.501" level="INFO">Clicking element 'id=OK'.</msg>
+<status status="PASS" endtime="20200306 17:45:44.982" starttime="20200306 17:45:43.499"></status>
+</kw>
+<kw name="Close Application" library="AppiumLibrary">
+<doc>Closes the current application and also close webdriver session.</doc>
+<status status="PASS" endtime="20200306 17:45:46.518" starttime="20200306 17:45:44.982"></status>
+</kw>
+<status status="PASS" endtime="20200306 17:45:46.518" critical="yes" starttime="20200306 17:44:56.068"></status>
+</test>
+<status status="PASS" endtime="20200306 17:45:46.520" starttime="20200306 17:44:55.775"></status>
+</suite>
+<status status="PASS" endtime="20200306 17:45:46.522" starttime="20200306 17:44:55.749"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Suites" pass="1">Suites</stat>
+<stat fail="0" id="s1-s1" name="Suite1 App" pass="1">Suites.Suite1 App</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

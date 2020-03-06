@@ -1,0 +1,17 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.Suite3 App                                                             
+==============================================================================
+Appium Test on BrowserStack                                           | FAIL |
+ValueError: Element locator 'id=org.wikipedia.alpha:id/search_src_text' did not match any elements.
+------------------------------------------------------------------------------
+Suites.Suite3 App                                                     | FAIL |
+1 critical test, 0 passed, 1 failed
+1 test total, 0 passed, 1 failed
+==============================================================================
+Suites                                                                | FAIL |
+1 critical test, 0 passed, 1 failed
+1 test total, 0 passed, 1 failed
+==============================================================================
+Output:  /Users/nithyamani/eclipse-workspace/browserstack-robot-framework/apps/test/parallel/pabot_results/Suites.Suite3 App/output.xml

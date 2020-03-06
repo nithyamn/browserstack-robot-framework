@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.7.3 on darwin)" generated="20200304 19:40:52.217" rpa="false">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="Appium android" source="/Users/nithyamani/eclipse-workspace/browserstack-robot-framework/apps/test/Appium_android.robot">
+<test id="s1-s1-t1" name="Appium Test on BrowserStack">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200304 19:40:52.379" endtime="20200304 19:40:52.379"></status>
+</kw>
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200304 19:40:52.379" endtime="20200304 19:40:52.379"></status>
+</kw>
+<status status="PASS" starttime="20200304 19:40:52.378" endtime="20200304 19:40:52.379" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20200304 19:40:52.237" endtime="20200304 19:40:52.379"></status>
+</suite>
+<suite id="s1-s2" name="Appium ios" source="/Users/nithyamani/eclipse-workspace/browserstack-robot-framework/apps/test/Appium_ios.robot">
+<test id="s1-s2-t1" name="Appium Test on BrowserStack">
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="NOT_RUN" starttime="20200304 19:40:52.382" endtime="20200304 19:40:52.382"></status>
+</kw>
+<status status="PASS" starttime="20200304 19:40:52.382" endtime="20200304 19:40:52.382" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20200304 19:40:52.380" endtime="20200304 19:40:52.382"></status>
+</suite>
+<status status="PASS" starttime="20200304 19:40:52.218" endtime="20200304 19:40:52.383"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0">Critical Tests</stat>
+<stat pass="2" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="2" fail="0" id="s1" name="Suites">Suites</stat>
+<stat pass="1" fail="0" id="s1-s1" name="Appium android">Suites.Appium android</stat>
+<stat pass="1" fail="0" id="s1-s2" name="Appium ios">Suites.Appium ios</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

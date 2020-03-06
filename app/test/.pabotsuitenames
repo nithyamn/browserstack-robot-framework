@@ -1,0 +1,6 @@
+datasources:a59e9aa5fd00d05a6a83d4545c33da9ac4d9d0eb
+commandlineoptions:9f8598a690c7367accf83ead504756ddd374acc9
+suitesfrom:no-suites-from-option
+file:cb5465c1869a975bf75c8ef47098bcd02f24a6a9
+--suite Suites.Appium android
+--suite Suites.Appium ios

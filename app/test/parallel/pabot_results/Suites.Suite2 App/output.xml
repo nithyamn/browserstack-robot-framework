@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generated="20200306 17:44:55.747" generator="Robot 3.1.2 (Python 2.7.16 on darwin)">
+<suite id="s1" name="Suites">
+<suite source="/Users/nithyamani/eclipse-workspace/browserstack-robot-framework/apps/test/parallel/Suite2_App.robot" id="s1-s1" name="Suite2 App">
+<test id="s1-s1-t1" name="Appium Test on BrowserStack">
+<kw name="Open Application" library="AppiumLibrary">
+<doc>Opens a new application to given Appium server.
+Capabilities of appium server, Android and iOS,
+Please check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md
+| *Option*            | *Man.* | *Description*     |
+| remote_url          | Yes    | Appium server url |
+| alias               | no     | alias             |</doc>
+<arguments>
+<arg>${REMOTE_URL}</arg>
+<arg>name=parallel_test</arg>
+<arg>build=RobotFramework</arg>
+<arg>platformName=Android</arg>
+<arg>os_version=10.0</arg>
+<arg>device=Google Pixel 4</arg>
+<arg>app=bs://ae210c1d04aa89db927c408f6d7da115303fba0d</arg>
+</arguments>
+<status status="PASS" endtime="20200306 17:45:15.509" starttime="20200306 17:44:56.069"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>id=org.wikipedia.alpha:id/search_container</arg>
+</arguments>
+<msg timestamp="20200306 17:45:15.511" level="INFO">Clicking element 'id=org.wikipedia.alpha:id/search_container'.</msg>
+<status status="PASS" endtime="20200306 17:45:16.516" starttime="20200306 17:45:15.510"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>id=org.wikipedia.alpha:id/search_src_text</arg>
+</arguments>
+<msg timestamp="20200306 17:45:16.519" level="INFO">Clicking element 'id=org.wikipedia.alpha:id/search_src_text'.</msg>
+<status status="PASS" endtime="20200306 17:45:18.973" starttime="20200306 17:45:16.516"></status>
+</kw>
+<kw name="Input Text" library="AppiumLibrary">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>id=org.wikipedia.alpha:id/search_src_text</arg>
+<arg>BrowserStack</arg>
+</arguments>
+<msg timestamp="20200306 17:45:18.976" level="INFO">Typing text 'BrowserStack' into text field 'id=org.wikipedia.alpha:id/search_src_text'</msg>
+<status status="PASS" endtime="20200306 17:45:20.815" starttime="20200306 17:45:18.974"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>id=org.wikipedia.alpha:id/search_src_text</arg>
+</arguments>
+<msg timestamp="20200306 17:45:20.817" level="INFO">Clicking element 'id=org.wikipedia.alpha:id/search_src_text'.</msg>
+<status status="PASS" endtime="20200306 17:45:22.484" starttime="20200306 17:45:20.815"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout[2]/android.view.ViewGroup/android.support.v4.view.ViewPager/android.view.ViewGroup/android.widget.FrameLayout/android.support.v7.widget.RecyclerView/android.widget.FrameLayout[1]/android.widget.LinearLayout</arg>
+</arguments>
+<msg timestamp="20200306 17:45:22.487" level="INFO">Clicking element 'xpath=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout[2]/android.view.ViewGroup/android.support.v4.view.ViewPager/android.view.ViewGroup/android.widget.FrameLayout/android.support.v7.widget.RecyclerView/android.widget.FrameLayout[1]/android.widget.LinearLayout'.</msg>
+<status status="PASS" endtime="20200306 17:45:26.680" starttime="20200306 17:45:22.485"></status>
+</kw>
+<kw name="Close Application" library="AppiumLibrary">
+<doc>Closes the current application and also close webdriver session.</doc>
+<status status="PASS" endtime="20200306 17:45:27.137" starttime="20200306 17:45:26.681"></status>
+</kw>
+<status status="PASS" endtime="20200306 17:45:27.138" critical="yes" starttime="20200306 17:44:56.068"></status>
+</test>
+<status status="PASS" endtime="20200306 17:45:27.139" starttime="20200306 17:44:55.773"></status>
+</suite>
+<status status="PASS" endtime="20200306 17:45:27.140" starttime="20200306 17:44:55.749"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Suites" pass="1">Suites</stat>
+<stat fail="0" id="s1-s1" name="Suite2 App" pass="1">Suites.Suite2 App</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

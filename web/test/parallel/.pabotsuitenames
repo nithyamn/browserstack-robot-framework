@@ -1,0 +1,10 @@
+datasources:5847b81977eec1ac6bd0d519f7e5507c94a63281
+commandlineoptions:690611fc3044860a7590e414b4bf0214ad18c978
+suitesfrom:no-suites-from-option
+file:1b9533248caa97d069f0de6b74066dc96eb2235f
+--test Suites.Suite1.Parallel Tests 1
+--test Suites.Suite2.Parallel Tests
+--test Suites.Suite3.Parallel Tests
+--test Suites.Suite1.Parallel Tests 2
+--test Suites.Suite1.Parallel Tests 3
+--test Suites.Suite1.Parallel Tests 4
