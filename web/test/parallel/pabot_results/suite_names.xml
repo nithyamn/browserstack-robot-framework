@@ -1,71 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 3.1.2 (Python 3.7.3 on darwin)" generated="20200306 17:39:37.907" rpa="false">
-<suite id="s1" name="Suites">
-<suite id="s1-s1" name="Suite1" source="/Users/nithyamani/eclipse-workspace/browserstack-robot-framework/web/test/parallel/Suite1.robot">
-<test id="s1-s1-t1" name="Parallel Tests 1">
+<robot generator="Robot 3.1.2 (Python 3.7.3 on darwin)" generated="20200306 18:02:37.683" rpa="false">
+<suite id="s1" name="Suite1" source="/Users/nithyamani/eclipse-workspace/browserstack-robot-framework/web/test/parallel/Suite1.robot">
+<test id="s1-t1" name="Parallel Tests 1">
 <kw name="No Operation" library="BuiltIn">
 <doc>Does absolutely nothing.</doc>
-<status status="NOT_RUN" starttime="20200306 17:39:38.138" endtime="20200306 17:39:38.139"></status>
+<status status="NOT_RUN" starttime="20200306 18:02:37.921" endtime="20200306 18:02:37.921"></status>
 </kw>
-<status status="PASS" starttime="20200306 17:39:38.138" endtime="20200306 17:39:38.139" critical="yes"></status>
+<status status="PASS" starttime="20200306 18:02:37.920" endtime="20200306 18:02:37.921" critical="yes"></status>
 </test>
-<test id="s1-s1-t2" name="Parallel Tests 2">
+<test id="s1-t2" name="Parallel Tests 2">
 <kw name="No Operation" library="BuiltIn">
 <doc>Does absolutely nothing.</doc>
-<status status="NOT_RUN" starttime="20200306 17:39:38.139" endtime="20200306 17:39:38.139"></status>
+<status status="NOT_RUN" starttime="20200306 18:02:37.921" endtime="20200306 18:02:37.921"></status>
 </kw>
-<status status="PASS" starttime="20200306 17:39:38.139" endtime="20200306 17:39:38.139" critical="yes"></status>
+<status status="PASS" starttime="20200306 18:02:37.921" endtime="20200306 18:02:37.922" critical="yes"></status>
 </test>
-<test id="s1-s1-t3" name="Parallel Tests 3">
+<test id="s1-t3" name="Parallel Tests 3">
 <kw name="No Operation" library="BuiltIn">
 <doc>Does absolutely nothing.</doc>
-<status status="NOT_RUN" starttime="20200306 17:39:38.140" endtime="20200306 17:39:38.140"></status>
+<status status="NOT_RUN" starttime="20200306 18:02:37.922" endtime="20200306 18:02:37.922"></status>
 </kw>
-<status status="PASS" starttime="20200306 17:39:38.139" endtime="20200306 17:39:38.140" critical="yes"></status>
+<status status="PASS" starttime="20200306 18:02:37.922" endtime="20200306 18:02:37.922" critical="yes"></status>
 </test>
-<test id="s1-s1-t4" name="Parallel Tests 4">
+<test id="s1-t4" name="Parallel Tests 4">
 <kw name="No Operation" library="BuiltIn">
 <doc>Does absolutely nothing.</doc>
-<status status="NOT_RUN" starttime="20200306 17:39:38.140" endtime="20200306 17:39:38.140"></status>
+<status status="NOT_RUN" starttime="20200306 18:02:37.923" endtime="20200306 18:02:37.923"></status>
 </kw>
-<status status="PASS" starttime="20200306 17:39:38.140" endtime="20200306 17:39:38.140" critical="yes"></status>
+<status status="PASS" starttime="20200306 18:02:37.922" endtime="20200306 18:02:37.923" critical="yes"></status>
 </test>
-<status status="PASS" starttime="20200306 17:39:37.931" endtime="20200306 17:39:38.141"></status>
-</suite>
-<suite id="s1-s2" name="Suite2" source="/Users/nithyamani/eclipse-workspace/browserstack-robot-framework/web/test/parallel/Suite2.robot">
-<test id="s1-s2-t1" name="Parallel Tests">
-<kw name="No Operation" library="BuiltIn">
-<doc>Does absolutely nothing.</doc>
-<status status="NOT_RUN" starttime="20200306 17:39:38.144" endtime="20200306 17:39:38.144"></status>
-</kw>
-<status status="PASS" starttime="20200306 17:39:38.144" endtime="20200306 17:39:38.144" critical="yes"></status>
-</test>
-<status status="PASS" starttime="20200306 17:39:38.141" endtime="20200306 17:39:38.145"></status>
-</suite>
-<suite id="s1-s3" name="Suite3" source="/Users/nithyamani/eclipse-workspace/browserstack-robot-framework/web/test/parallel/Suite3.robot">
-<test id="s1-s3-t1" name="Parallel Tests">
-<kw name="No Operation" library="BuiltIn">
-<doc>Does absolutely nothing.</doc>
-<status status="NOT_RUN" starttime="20200306 17:39:38.147" endtime="20200306 17:39:38.147"></status>
-</kw>
-<status status="PASS" starttime="20200306 17:39:38.147" endtime="20200306 17:39:38.147" critical="yes"></status>
-</test>
-<status status="PASS" starttime="20200306 17:39:38.145" endtime="20200306 17:39:38.148"></status>
-</suite>
-<status status="PASS" starttime="20200306 17:39:37.910" endtime="20200306 17:39:38.148"></status>
+<status status="PASS" starttime="20200306 18:02:37.684" endtime="20200306 18:02:37.923"></status>
 </suite>
 <statistics>
 <total>
-<stat pass="6" fail="0">Critical Tests</stat>
-<stat pass="6" fail="0">All Tests</stat>
+<stat pass="4" fail="0">Critical Tests</stat>
+<stat pass="4" fail="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat pass="6" fail="0" id="s1" name="Suites">Suites</stat>
-<stat pass="4" fail="0" id="s1-s1" name="Suite1">Suites.Suite1</stat>
-<stat pass="1" fail="0" id="s1-s2" name="Suite2">Suites.Suite2</stat>
-<stat pass="1" fail="0" id="s1-s3" name="Suite3">Suites.Suite3</stat>
+<stat pass="4" fail="0" id="s1" name="Suite1">Suite1</stat>
 </suite>
 </statistics>
 <errors>

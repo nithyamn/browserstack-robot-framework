@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generated="20200306 18:02:38.373" generator="Robot 3.1.2 (Python 2.7.16 on darwin)">
+<suite source="/Users/nithyamani/eclipse-workspace/browserstack-robot-framework/web/test/parallel/Suite1.robot" id="s1" name="Suite1">
+<test id="s1-t1" name="Parallel Tests 4">
+<kw name="Set Test Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current test.</doc>
+<arguments>
+<arg>&amp;{DC4}</arg>
+<arg>os_version=12</arg>
+<arg>device=iPhone 8 Plus</arg>
+<arg>build=RobotFramework</arg>
+<arg>name=parallel_test_4}</arg>
+</arguments>
+<msg timestamp="20200306 18:02:38.665" level="INFO">&amp;{DC4} = { os_version=12 | device=iPhone 8 Plus | build=RobotFramework | name=parallel_test_4} }</msg>
+<status status="PASS" endtime="20200306 18:02:38.665" starttime="20200306 18:02:38.664"></status>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+<arg>iphone</arg>
+<arg>remote_url=${REMOTE_URL}</arg>
+<arg>desired_capabilities=&amp;{DC4}</arg>
+</arguments>
+<msg timestamp="20200306 18:02:38.666" level="INFO">Opening browser 'iphone' to base url 'https://www.google.com' through remote server at 'http://nithyamani3:P4JKysg5WuchQxBfKQu1@hub-cloud.browserstack.com/wd/hub'.</msg>
+<status status="PASS" endtime="20200306 18:02:54.237" starttime="20200306 18:02:38.665"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>name=q</arg>
+<arg>BrowserStack</arg>
+</arguments>
+<msg timestamp="20200306 18:02:54.238" level="INFO">Typing text 'BrowserStack' into text field 'name=q'.</msg>
+<status status="PASS" endtime="20200306 18:02:55.638" starttime="20200306 18:02:54.237"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5</arg>
+</arguments>
+<msg timestamp="20200306 18:03:00.639" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" endtime="20200306 18:03:00.640" starttime="20200306 18:02:55.639"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20200306 18:03:01.975" starttime="20200306 18:03:00.640"></status>
+</kw>
+<status status="PASS" endtime="20200306 18:03:01.975" critical="yes" starttime="20200306 18:02:38.663"></status>
+</test>
+<status status="PASS" endtime="20200306 18:03:01.977" starttime="20200306 18:02:38.375"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Suite1" pass="1">Suite1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
