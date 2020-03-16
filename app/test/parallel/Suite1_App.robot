@@ -9,7 +9,7 @@ ${URL}    https://www.google.com
 
 *** Test Cases ***
 Appium Test on BrowserStack
-    Open Application    ${REMOTE_URL}    name=parallel_test	build=RobotFramework    platformName=iOS    os_version=13.0    device=iPhone XS    app=bs://07dc0a4af4567a7086a3c739b3b51f41a086e6a0
+    Open Application    ${REMOTE_URL}    name=parallel_test	build=RobotFramework    platformName=iOS    os_version=13.0    device=iPhone XS    app=%{BROWSERSTACK_APP_ID}
 	# accessibility id=Alert Button
 	Click Element    id=Alert Button
 	# accessibility id=OK
