@@ -10,7 +10,7 @@ ${URL}    https://www.google.com
 *** Test Cases ***
 Appium Test on BrowserStack
     # id=org.wikipedia.alpha:id/search_container
-    Open Application    ${REMOTE_URL}    name=parallel_test    build=RobotFramework    platformName=Android    os_version=9.0    device=Samsung Galaxy Tab S6    app=bs://ae210c1d04aa89db927c408f6d7da115303fba0d
+    Open Application    ${REMOTE_URL}    name=parallel_test    build=RobotFramework    platformName=Android    os_version=9.0    device=Samsung Galaxy Tab S6    app=%{BROWSERSTACK_APP_ID}
 	# id=org.wikipedia.alpha:id/search_container
 	Click Element    id=org.wikipedia.alpha:id/search_container
 	# id=org.wikipedia.alpha:id/search_src_text
