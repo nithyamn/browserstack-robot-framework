@@ -5,6 +5,7 @@
 ## Setup
 * Clone the repo
 * Install dependencies  `pip3 install robotframework`  &&  `pip3 install --upgrade robotframework-seleniumlibrary` && `pip3 install robotframework-pabot` -> This is for parallelization 
+* For Appium, refer https://github.com/serhatbolsu/robotframework-appiumlibrary
 * **Note: This is w.r.t Python3**
 
 ## Set BrowserStack Credentials 
